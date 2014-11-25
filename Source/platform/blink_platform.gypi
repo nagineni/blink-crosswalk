@@ -280,6 +280,7 @@
       'exported/WebData.cpp',
       'exported/WebDeviceMotionData.cpp',
       'exported/WebDeviceOrientationData.cpp',
+      'exported/WebDeviceProximityData.cpp',
       'exported/WebFederatedCredential.cpp',
       'exported/WebFileSystemCallbacks.cpp',
       'exported/WebFilterKeyframe.cpp',

@@ -42,6 +42,7 @@
 #include "WebDeviceLightListener.h"
 #include "WebDeviceMotionListener.h"
 #include "WebDeviceOrientationListener.h"
+#include "WebDeviceProximityListener.h"
 #include "WebGamepadListener.h"
 #include "WebGamepads.h"
 #include "WebGestureDevice.h"
@@ -602,7 +603,7 @@ public:
 
 
     // Platform events -----------------------------------------------------
-    // Device Orientation, Device Motion, Device Light, Battery, Gamepad.
+    // Device Orientation, Device Motion, Device Light, Device Proximity., Battery, Gamepad.
 
     // Request the platform to start listening to the events of the specified
     // type and notify the given listener (if not null) when there is an update.

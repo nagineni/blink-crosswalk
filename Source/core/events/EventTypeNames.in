@@ -62,6 +62,7 @@ dblclick
 devicelight
 devicemotion
 deviceorientation
+deviceproximity
 dischargingtimechange
 disconnect
 display

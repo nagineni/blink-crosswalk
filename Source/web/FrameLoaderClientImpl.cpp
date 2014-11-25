@@ -53,6 +53,7 @@
 #include "modules/device_light/DeviceLightController.h"
 #include "modules/device_orientation/DeviceMotionController.h"
 #include "modules/device_orientation/DeviceOrientationController.h"
+#include "modules/device_proximity/DeviceProximityController.h"
 #include "modules/gamepad/NavigatorGamepad.h"
 #include "modules/serviceworkers/NavigatorServiceWorker.h"
 #include "platform/MIMETypeRegistry.h"
@@ -118,6 +119,8 @@ void FrameLoaderClientImpl::dispatchDidClearWindowObjectInMainWorld()
             DeviceOrientationController::from(*document);
             if (RuntimeEnabledFeatures::deviceLightEnabled())
                 DeviceLightController::from(*document);
+            if (RuntimeEnabledFeatures::deviceProximityEnabled())
+                DeviceProximityController::from(*document);
             if (RuntimeEnabledFeatures::gamepadEnabled())
                 NavigatorGamepad::from(*document);
             if (RuntimeEnabledFeatures::serviceWorkerEnabled())

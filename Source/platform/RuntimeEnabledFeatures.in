@@ -52,6 +52,7 @@ CustomSchemeHandler depends_on=NavigatorContentUtils, status=experimental
 Database status=stable
 DecodeToYUV status=experimental
 DeviceLight status=experimental
+DeviceProximity status=experimental
 DisplayList2dCanvas
 SVGFontsOnNonGDIPlatforms
 EncodingAPI status=stable
